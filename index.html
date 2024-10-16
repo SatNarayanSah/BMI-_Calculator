@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="/BMI_Calculator/style.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <div class="bmi-calculator">
+        <div class="calculator">
+            <!-- <div class="age">
+                <label for="your_age">Age</label>
+                <input style="margin-left: 35px;" type="text" name="your_age" id="age">
+            </div> -->
+            <div class="height">
+                <label for="height">Height</label>
+                <input type="text" name="height" id="height" placeholder="in Feet">
+            </div>
+            <div class="weight">
+                <label for="wight">Weight</label>
+                <input type="text" name="wight" id="weight" placeholder="kg">
+            </div>
+            <div class="result">
+                
+                <p>BMI = <span class="value">0</span>kg/m<sup>2</sup></p>
+                <p class="prime">BMI Prime = <span class="primevalue">0</span>kg/m<sup>2</sup></p>
+            </div>
+
+            <p class="category"></p>
+            <input onclick="bmiCalculator()" type="button" id="btn1" value="Click Me">
+        </div>
+
+    </div>
+</body>
+<script src="/BMI_Calculator/script.js"></script>
+
+</html>
